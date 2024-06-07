@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(203, 250, 216);
+}
+
+header {
+    height: 200px;
+    background-color: rgb(255, 253, 164);
+    padding-top: 30px;
+}
+
+footer {
+    height: 200px;
+    background-color: rgb(255, 253, 164);
+}
+
+.container {
+    background-color: #c8f4ff; /* Achtergrondkleur van de grid */
+    padding: 20px; 
+}
+
+.img-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+/* Stijl voor carousel */
+
+.carousel-inner img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+
+/* Stijl voor button */
+.btn {
+    border-radius: 0;
+    background-color: rgb(255, 255, 255) ;
+}
+
+/* Stijl voor titel, menubalk en content */
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Stijl voor invoervelden */
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
