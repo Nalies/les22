@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(203, 250, 216);
+}
+
+header {
+    background-color: rgb(203, 250, 216);
+    padding: 20px;
+}
+
+
+
+.container {
+    background-color: #c8f4ff; /* Achtergrondkleur van de grid */
+    padding: 20px; 
+}
+
+.img-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+/* Stijl voor titel, menubalk en content */
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+/* Stijl voor de navigatiebalk en -knoppen */
+nav {
+    text-align: center; 
+    background-color: #c8f4ff; 
+    padding: 10px; 
+}
+
+nav a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin-right: 10px; 
+    display: inline-block; 
+    border-radius: 5px; 
+}
+  
+nav a:hover {
+    background-color: #80d8f6; 
+}
+
+/* Stijl voor invoervelden */
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
